@@ -43,9 +43,16 @@ This demonstrated **efficiency + adaptability**, rather than robotic tool use.
   * Injected dummy text to simulate payload execution.
   * Confirmed script delivery in browser.
 
+* **Metasploit Payloads:**
+
+  * Executed after DVWA web exploits to validate successful system compromise.
+  * Generated and delivered SMB payloads to victim machine.
+  * Confirmed remote system access and payload execution.
+
 * **SMB Exploitation:**
 
-  * Used `smbclient` + Metasploit payloads to gain remote system access.
+  * Used `smbclient` to enumerate and interact with SMB shares.
+  * Verified access and persistence after Metasploit payload delivery.
 
 * **Digital Forensics (Autopsy):**
 
@@ -62,6 +69,7 @@ Findings showed attackers could:
 * Compromise databases via weak SQL handling.
 * Manipulate user sessions and data via XSS.
 * Exploit misconfigured SMB services to gain persistence.
+* Deliver malware payloads via Metasploit and maintain access.
 * Leave **forensic footprints** visible only through proper tools (not manual inspection).
 
 ---
@@ -79,6 +87,7 @@ Findings showed attackers could:
 
 * **Adaptability matters:** Hydra brute-force issues forced me to rethink syntax and privilege use.
 * **Not every tool is needed:** Knowing when to stop scanning and start exploiting saves time and shows efficiency.
+* **Metasploit validation:** Running Metasploit after DVWA exploits confirmed successful payload delivery and remote access.
 * **Forensics prove the story:** Dummy Autopsy images simulated a real attacker presence, making the report more realistic.
 * **Red + Blue crossover:** Offensive testing gave insight into detection and post-attack validation.
 
