@@ -10,7 +10,7 @@
   * Perform forensic validation of attack traces.
   * Provide actionable recommendations.
 
-## * You can find the project in full PDF here!(file:///C:/Users/savfl/Downloads/The%20Capstone%20Project%20(1).pdf)
+## * You can find the project in full PDF here!(https://docs.google.com/presentation/d/1KwbDOEqukRs1K0Cum9Fx5fM7Vq0cX9o3vp_r5u2uhzw/edit?usp=sharing)
 
 ## 🔹 Problem-Solving Approach
 
